@@ -1,0 +1,17 @@
+.body {
+    background:rgba(153, 153, 153, 1);
+    padding: 10%;
+}
+
+.cuadrado {
+    width: 150px;
+    height: 150px;
+    background:rgb(204, 0, 0);
+    border:solid 3px red;
+    transition: 1s;
+}
+
+.cuadrado:hover {
+    /*  transform: translateX(500px);*/
+    transform: rotate(280deg);
+}
